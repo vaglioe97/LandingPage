@@ -8,6 +8,7 @@ body{
 .logo {
     height: 100px;
     width: 100px;
+    margin: 0 auto;
    
 
 }
@@ -51,6 +52,10 @@ body{
 .left_content button{
     background-color: #3882f6;
     color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bold;
  
     
 }
@@ -72,7 +77,8 @@ body{
 .nav {
     display: flex;
     justify-content: flex-start;
-    align-items:center;   
+    align-items:center; 
+
 }
 
 
@@ -93,3 +99,123 @@ a {
     font-size: 18px;
 }
 
+.piece img {
+    width: 150px;
+    height: 150px;
+        border: solid #3882f6;
+        border-radius: 15%;
+
+}
+
+
+.content_2 {
+   text-align: center;
+   margin: 30px;
+
+}
+
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.piece {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+     padding: 10px;
+}
+
+.content_3 {
+    background-color: #E5E7EB;
+  padding: 90px 0;
+
+}
+
+.background_1 {
+max-width: 900px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+
+}
+
+.author {
+    text-align: end;
+    padding-right: 30px;
+}
+
+.content_4 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+ 
+}
+
+.bigbox {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 30px 40px;
+    max-width: 900px ;
+    margin: auto;
+    gap: 30px;
+    width: 100%;
+    
+}
+
+.containervert {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.containervert p{
+    margin: 0px;
+}
+
+.cta_button,
+.cta_text {
+    font-size:18px ;
+    color: white;
+
+}
+
+.cta_title {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.cta_button {
+background-color: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+background-color: #3882f6;
+border: solid white ;
+border-radius: 10px;
+font-weight: bold;
+padding: 10px 20px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 25px 50px;
+}
